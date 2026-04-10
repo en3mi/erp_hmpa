@@ -1,16 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'providers/auth_provider.dart';
-import 'providers/erp_provider.dart';
-import 'screens/auth/login_screen.dart';
-import 'screens/common/splash_screen.dart';
-import 'screens/home/home_screen.dart';
-
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(const ErpHmpaApp());
-}
+import '../../providers/auth_provider.dart';
+import '../../providers/erp_provider.dart';
+import '../../screens/auth/login_screen.dart';
+import '../../screens/common/splash_screen.dart';
+import '../../screens/home/home_screen.dart';
 
 class ErpHmpaApp extends StatelessWidget {
   const ErpHmpaApp({super.key});
